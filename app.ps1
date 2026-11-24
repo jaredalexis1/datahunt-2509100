@@ -21,8 +21,7 @@ foreach ($archivo in Get-ChildItem (Join-Path $Raiz "src/rutas") -Filter *.ps1) 
 }
  
 # 4. Inicia el servidor web
-# HALLAZGO H-04: la app se sirve por HTTP; los datos viajan sin cifrar por la red
-$servidor = [System.Net.HttpListener]::new()
+# RIESGO H-04 (ver docs/hallazgos.md): la app se sirve por HTTP; decisión documentada$servidor = [System.Net.HttpListener]::new()
 $servidor.Prefixes.Add("http://$($Direccion):$Puerto/")
 $servidor.Start()
  
