@@ -1,0 +1,2 @@
+"id","dato","descripcion","ubicaciones","origen","tipo_dato","clasificacion","finalidad","base_legal","conservacion","dueno","medidas"
+"D-01","Correo electrónico del cliente","Correo con el que el cliente crea su cuenta e inicia sesión","users.csv; access_log.csv; protegido/*.enc","Formulario","Personal","Confidencial","Identificar la cuenta y enviar avisos del servicio","Consentimiento","Mientras la cuenta esté activa + [plazo]","Atención a pasajeros","Cifrado ChaCha20 en copias; enmascarado en /admin"

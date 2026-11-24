@@ -1,0 +1,2 @@
+"id","actividad","finalidad","base_legal","titulares","datos","sistema_ubicacion","departamento_dueno","encargados","transferencias","conservacion","medidas_tecnicas","medidas_administrativas"
+"A-01","Registro de pasajeros en Data Hunt","[finalidad]","Consentimiento","Pasajeros (México, UE y California)","D-01; D-02; [...]","Servidor de la organización: datos/users.csv; copias cifradas en S3","Atención a pasajeros","[proveedor de nube]","[ninguna / cuáles]","[plazo]","Hash PBKDF2; cifrado ChaCha20; SHA-256","Aviso de privacidad v1.0; procedimiento ARCO"
